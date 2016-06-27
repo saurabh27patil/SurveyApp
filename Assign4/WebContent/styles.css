@@ -1,0 +1,28 @@
+body { background-color: lightgray; color:#000000;font-family:garamond; font-size:110%;width:90%;height:100px;
+padding:10px 40px;text-align: justify }
+h1 {font-family: georgia ; 
+		text-align : center; 
+		font-size:400% ;
+		color :blue;
+		text-shadow: -4px 4px black;}
+fieldset{ display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);}
+td{width : 33%;}
+	.gmuimg{ bottom:0px;
+	                 right:0px;}
+    .three {
+	border: thin ridge #FFF;
+	background-color: #FFF;
+	width: 30px;
+    }
+    .four {
+	border: thin ridge #FFF;
+	background-color: #FFF;
+	width: 30px;
+    }

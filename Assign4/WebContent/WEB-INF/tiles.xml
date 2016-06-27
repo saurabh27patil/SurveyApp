@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ 
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+	<tiles-definitions>
+    <definition name="MyLayout" template="/MyLayout.jsp">
+        <put-attribute name="title" value="Layout title" />
+        <put-attribute name="header" value="/Header.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/Footer.jsp" />
+    </definition>
+    <definition name="WinnerAcknowledgement" extends="MyLayout">
+        <put-attribute name="title" value="Winner Acknowledgement" />
+        <put-attribute name="body" value="/WEB-INF/WinnerAcknowledgement.jsp" />
+    </definition>
+    
+    <definition name="SimpleAcknowledgement" extends="MyLayout">
+        <put-attribute name="title" value="Simple Acknowledgement" />
+        <put-attribute name="body" value="/WEB-INF/SimpleAcknowledgement.jsp" />
+    </definition>
+    
+     <definition name="Stu1" extends="MyLayout">
+        <put-attribute name="title" value="Student info Display " />
+        <put-attribute name="body" value="/WEB-INF/stu1.jsp" />
+    </definition>
+    
+    <definition name="noSuchStudent" extends="MyLayout">
+        <put-attribute name="title" value="No Such Student Exists" />
+        <put-attribute name="body" value="/WEB-INF/NoSuchStudent.jsp" />
+    </definition>
+    
+</tiles-definitions>

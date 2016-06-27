@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+ 
+    <package name="default" extends="struts-default" namespace="/"  >
+    
+     <result-types>
+            <result-type name="tiles"
+                class="org.apache.struts2.views.tiles.TilesResult" />
+        </result-types>
+        
+        <action name="TestAction" class="test.TestAction">
+           <result name="simple" type="tiles">SimpleAcknowledgement</result>
+		   <result name="winner" type="tiles">WinnerAcknowledgement</result>
+	       <result name="student" type="tiles">Stu1</result>
+	       <result name="failure" type="tiles">noSuchStudent</result>
+	    </action>
+	
+	  <action name="id" class="test.TestAction" method="getInfo">
+	   <result name="student" type="tiles">Stu1</result>
+	   <result name="failure" type="tiles">noSuchStudent</result>
+	  </action>
+    </package>
+</struts>

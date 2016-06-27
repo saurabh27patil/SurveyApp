@@ -1,0 +1,106 @@
+ 
+{ 
+"zipcodes":[ 
+ { 
+ "zip": "22312", 
+ "city": "Alexandria", 
+ "state":"VA" 
+ }, 
+ { 
+ "zip": "22030", 
+ "city": "Fairfax", 
+ "state":"VA" 
+ }, 
+ { 
+ "zip": "22301", 
+ "city": "Tysons Corner", 
+ "state":"MD" 
+ }, 
+ { 
+ "zip": "20148", 
+ "city": "Ashburn", 
+ "state":"VA" 
+ }, 
+ { 
+ "zip": "74074", 
+ "city": "Stillwater", 
+ "state":"OK" 
+ }, 
+ { 
+ "zip": "87102", 
+ "city": "Albuquerque", 
+ "state":"NM" 
+ }, 
+ { 
+ "zip": "64063", 
+ "city": "Lee's Summit", 
+ "state":"MO" 
+ }, 
+ { 
+ "zip": "95050", 
+ "city": "Santa Clara", 
+ "state":"CA" 
+ }, 
+ { 
+ "zip": "60115", 
+ "city": "DeKalb", 
+ "state":"IL" 
+ }, 
+ { 
+ "zip": "44308", 
+ "city": "Akron", 
+ "state":"OH" 
+ }, 
+ { 
+ "zip": "28202", 
+ "city": "Charlotte", 
+ "state":"NC" 
+ }, 
+ { 
+ "zip": "90802", 
+ "city": "Long Beach", 
+ "state":"CA" 
+ }, 
+ { 
+ "zip": "78701", 
+ "city": "Austin", 
+ "state":"TX" 
+ }, 
+ { 
+ "zip": "16501", 
+ "city": "Erie", 
+ "state":"PA" 
+ }, 
+ { 
+ "zip": "21202", 
+ "city": "Baltimore", 
+ "state":"MD" 
+ }, 
+ { 
+ "zip": "78363", 
+ "city": "Kingsville", 
+ "state":"TX" 
+ }, 
+ { 
+ "zip": "71270", 
+ "city": "Ruston", 
+ "state":"LA" 
+ }, 
+ { 
+ "zip": "39759", 
+ "city": "Starkville", 
+ "state":"MS" 
+ }, 
+ { 
+ "zip": "35801", 
+ "city": "Huntsville", 
+ "state":"AL" 
+ }, 
+ { 
+ "zip": "73069", 
+ "city": "Norman", 
+ "state":"OK" 
+ } 
+
+ ] 
+} 
